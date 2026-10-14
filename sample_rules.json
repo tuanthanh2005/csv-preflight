@@ -1,0 +1,9 @@
+{
+  "headers": ["id", "email", "status", "amount"],
+  "field_count": 4,
+  "required": ["id", "email"],
+  "unique": ["id"],
+  "allowed_values": {
+    "status": ["active", "inactive", "pending"]
+  }
+}
